@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taipei App</title>
+<!-- 字型 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Noto+Serif+TC:wght@200;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/all.min.css">
+
+</head>
+<body>
+    <div class="wrapper font-Serif">
+        <!-- 主頁 -->
+        <div class="title_content position-relative">
+            <!-- title_photo -->
+            <div class="title_photo">
+                <img src="./img/101.jpg" class="w-100 h-100" alt="">
+            </div>
+            <!-- 大標題 -->
+            <div class="title w-50 position-absolute top-20 start-25 translate-middle-y rounded-3 bg-secondary opacity-80">
+                <h1 class="allTitle p-2 p-md-4 text-center fw-normal fs-1 text-primary opacity-100">台北精選景點</h1>
+            </div>
+            <!-- 選擇類型 -->
+            <div class="select position-absolute top-50 start-50 translate-middle">
+                <select class="select_form text-center px-5 py-2 fs-6 text-success">
+                    <!--
+                        <option value="請選擇觀光類型">請選擇觀光類型</option>
+                        <option value="體育健身類">體育健身類</option>
+                        ...
+                    -->
+                </select>
+            </div>
+        </div>
+
+        <!-- body -->
+        <div class="body">
+
+            <!-- 小標題 -->
+            <p class="littleTitle text-center m-4 p-4 fs-2 text-primary">請選擇觀光類型</p>
+
+            <!-- 內容區域 -->
+            <div class="content w-100 m-auto d-flex flex-wrap align-items-center justify-content-around">
+                <div class="row">
+                    <!--
+                    <div class="box">
+                        <img class="itempic" src="https://www.travel.taipei/image/63334" alt="">
+                        <h3 class="item_title">景美溪河濱自行車道</h3>
+                        <ul>
+                            <li>
+                                <div class="class1">
+                                    <img src="img/pamphlet.png">
+                                    <p class="class2">體育健身類</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="phone1">
+                                    <img src="img/smartphone-call.png">
+                                    <p class="phone2">886-2-27258149</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="opentime1">
+                                    <img src="img/clock.png">
+                                    <p class="opentime2">開放空間</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="addressBtn" href="https://heo.gov.taipei/cp.aspx?n=A30EAFDA61A1C236">進入網站</a>
+                    </div>
+                    -->
+                </div>
+            </div>
+
+            <!-- 分頁欄 -->
+            <div class="btncontent d-flex justify-content-center p-4"></div>
+        </div>
+    </div>
+
+    <footer class="footer h-254 p-4 font-Serif bg-info">
+        <p class="text-center pt-3">資料來源：ptx 公共運輸整合資訊流通服務平台</p>
+    </footer>
+
+    <script src="./JS/script.js"></script>
+
+</body>
+</html>

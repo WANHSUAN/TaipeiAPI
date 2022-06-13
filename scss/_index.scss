@@ -1,0 +1,65 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper{
+    min-height: calc(100% - 100px);
+}
+
+.font-Serif{
+    font-family: "Noto Serif TC";
+}
+
+
+.start-25{
+    left: 25%;
+}
+
+.top-20{
+    top: 20%;
+}
+
+
+.opacity-80{
+    opacity: 0.8;
+}
+
+.w-7{
+    width: 7%;
+}
+
+.h-7{
+    height: 7%;
+}
+
+.w-35{
+    width: 35%;
+}
+
+
+.h-80{
+    height: 1100px;
+}
+
+@media screen and(max-width: 768px) {
+    .h-80{
+        height: 900px;
+    }
+}
+
+.h-33{
+    height: 330px;
+}
+
+.end-5{
+    right: 5%;
+}
+
+.bottom-5{
+    bottom: 5%;
+}
+
+.h-254{
+    height: 100px;
+}
