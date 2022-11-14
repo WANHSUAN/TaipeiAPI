@@ -7,7 +7,7 @@ var alldata;
 var xhr = new XMLHttpRequest();
 
 // 從網址讀取資料
-xhr.open('get', 'https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot/Taipei?%24top=40&%24format=JSON', true);
+xhr.open('get', 'https://tdx.transportdata.tw/api/basic/v2/Tourism/ScenicSpot/Taipei?%24top=40&%24format=JSON', true);
 
 // 讀取資料
 xhr.send(null);
